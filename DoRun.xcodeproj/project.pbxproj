@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94050A120C42E550093FE46 /* DoRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94050A020C42E550093FE46 /* DoRun.swift */; };
 		C9E8972420C3A57600194A15 /* DoRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8972320C3A57600194A15 /* DoRunTests.swift */; };
 		C9E8972F20C3A57600194A15 /* DoRunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8972E20C3A57600194A15 /* DoRunUITests.swift */; };
-		C9E8973D20C3A59B00194A15 /* DoRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8973C20C3A59A00194A15 /* DoRun.swift */; };
-		C9E8973F20C3C1AF00194A15 /* DoRun.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C9E8973E20C3C1AF00194A15 /* DoRun.podspec */; };
 		C9E8974120C3C7C900194A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E8974020C3C7C900194A15 /* AppDelegate.swift */; };
 		C9E8974620C3C7E900194A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E8974220C3C7E800194A15 /* Main.storyboard */; };
 		C9E8974720C3C7E900194A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E8974420C3C7E800194A15 /* LaunchScreen.storyboard */; };
@@ -34,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C94050A020C42E550093FE46 /* DoRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoRun.swift; sourceTree = "<group>"; };
 		C9E8970B20C3A57400194A15 /* DoRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E8971A20C3A57500194A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E8971F20C3A57600194A15 /* DoRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,6 @@
 		C9E8972A20C3A57600194A15 /* DoRunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoRunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E8972E20C3A57600194A15 /* DoRunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoRunUITests.swift; sourceTree = "<group>"; };
 		C9E8973020C3A57600194A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9E8973C20C3A59A00194A15 /* DoRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoRun.swift; sourceTree = "<group>"; };
-		C9E8973E20C3C1AF00194A15 /* DoRun.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DoRun.podspec; sourceTree = "<group>"; };
 		C9E8974020C3C7C900194A15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E8974320C3C7E800194A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9E8974520C3C7E800194A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,10 +72,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C940509F20C42E550093FE46 /* DoRun */ = {
+			isa = PBXGroup;
+			children = (
+				C94050A020C42E550093FE46 /* DoRun.swift */,
+			);
+			path = DoRun;
+			sourceTree = "<group>";
+		};
 		C9E8970220C3A57400194A15 = {
 			isa = PBXGroup;
 			children = (
-				C9E8973E20C3C1AF00194A15 /* DoRun.podspec */,
 				C9E8970D20C3A57400194A15 /* DoRun */,
 				C9E8972220C3A57600194A15 /* DoRunTests */,
 				C9E8972D20C3A57600194A15 /* DoRunUITests */,
@@ -98,10 +103,10 @@
 		C9E8970D20C3A57400194A15 /* DoRun */ = {
 			isa = PBXGroup;
 			children = (
+				C940509F20C42E550093FE46 /* DoRun */,
 				C9E8974420C3C7E800194A15 /* LaunchScreen.storyboard */,
 				C9E8974220C3C7E800194A15 /* Main.storyboard */,
 				C9E8974020C3C7C900194A15 /* AppDelegate.swift */,
-				C9E8973C20C3A59A00194A15 /* DoRun.swift */,
 				C9E8971A20C3A57500194A15 /* Info.plist */,
 			);
 			path = DoRun;
@@ -230,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E8974720C3C7E900194A15 /* LaunchScreen.storyboard in Resources */,
-				C9E8973F20C3C1AF00194A15 /* DoRun.podspec in Resources */,
 				C9E8974620C3C7E900194A15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94050A120C42E550093FE46 /* DoRun.swift in Sources */,
 				C9E8974120C3C7C900194A15 /* AppDelegate.swift in Sources */,
-				C9E8973D20C3A59B00194A15 /* DoRun.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
