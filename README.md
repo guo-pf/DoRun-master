@@ -1,6 +1,11 @@
 # DoRun
 
-  let doNow = DoNow()
+
+ pod 'DoRun',’~> 0.0.4'
+ 
+ 
+ 
+ let doNow = DoNow()
   doNow.doRun("") { (classType,parameter,index) in 
     if sucess {
     //Perform some action, or send a value
