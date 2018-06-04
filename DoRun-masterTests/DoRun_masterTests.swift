@@ -1,16 +1,16 @@
 //
-//  DoNow_masterTests.swift
-//  DoNow-masterTests
+//  DoRun_masterTests.swift
+//  DoRun-masterTests
 //
 //  Created by guo-pf on 2018/6/4.
 //  Copyright © 2018年 guo-pf. All rights reserved.
 //
 
 import XCTest
-@testable import DoNow_master
+@testable import DoRun_master
 
-class DoNow_masterTests: XCTestCase {
-
+class DoRun_masterTests: XCTestCase {
+    
     func testDoRunLoop() {
         let loops = ["aaa","bbb","ccc"]
         let pams = "abc"
@@ -67,8 +67,6 @@ class DoNow_masterTests: XCTestCase {
                 
         }
     }
-    
-    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.

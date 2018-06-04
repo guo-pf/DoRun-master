@@ -1,6 +1,6 @@
 //
-//  DoNow_masterUITests.swift
-//  DoNow-masterUITests
+//  DoRun_masterUITests.swift
+//  DoRun-masterUITests
 //
 //  Created by guo-pf on 2018/6/4.
 //  Copyright © 2018年 guo-pf. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class DoNow_masterUITests: XCTestCase {
+class DoRun_masterUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
